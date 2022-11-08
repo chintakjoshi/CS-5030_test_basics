@@ -23,7 +23,7 @@ jobs:
        - checkout
        - run:
            name: install dependencies
-           command: cd test-api-js && npm install
+           command: cd test-api-j && npm install
       
        - run:
            name: run tests
